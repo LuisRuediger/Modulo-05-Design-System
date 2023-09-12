@@ -11,6 +11,7 @@
     "turbo": "^1.10.13"
   },
   "dependencies": {
+    "@storybook/addon-a11y": "^7.4.1",
     "phosphor-react": "^1.4.1"
   }
 }
