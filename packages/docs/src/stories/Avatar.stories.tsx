@@ -10,6 +10,13 @@ export default {
     src: 'https://github.com/luisruediger.png',
     alt: 'Luis Ruediger',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}

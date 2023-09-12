@@ -7,8 +7,31 @@ export default {
   tags: ['autodocs'],
 
   args: {
+    size: 'md',
     children:
       'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, placeat! Corporis dignissimos ab magnam nihil placeat consequatur aliquid nesciunt at dolores. Distinctio, autem? Quibusdam impedit nemo, molestiae veritatis sequi ',
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xxs',
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '4xl',
+        '5xl',
+        '6xl',
+        '7xl',
+        '8xl',
+        '9xl',
+      ],
+      control: {
+        type: 'inline-radio',
+      },
+    },
   },
 } as Meta<TextProps>
 
