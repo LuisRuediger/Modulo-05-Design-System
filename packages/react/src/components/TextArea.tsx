@@ -31,3 +31,5 @@ export const TextArea = styled('textarea', {
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 export interface TextAreaProps extends ComponentProps<typeof TextArea> {}
+
+TextArea.displayName = 'TextArea'
